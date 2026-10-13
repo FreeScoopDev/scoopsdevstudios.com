@@ -52,6 +52,10 @@ footer { text-align: center; padding: 40px 20px; border-top: 1px solid var(--lin
 footer p + p { margin-top: 8px; }
 
 /* Text pages (privacy policy) */
+/* The contour lines across the top, fading into the ground before the text,
+   as on wockett.app. The home page has them in its .hero instead. The image is
+   1600x700: at least that wide, wider on a bigger screen, never squashed. */
+body.text-page { background-image: linear-gradient(to bottom, transparent 55%, var(--ground)), url("topo.svg"); background-size: 100% max(700px, 43.75vw), max(100%, 1600px) auto; background-repeat: no-repeat; background-position: top center; }
 .doc { max-width: 720px; padding-top: 64px; line-height: 1.65; }
 .doc .logo { display: block; width: 64px; height: auto; margin-bottom: 28px; }
 .doc h1 { font-size: 2.4em; letter-spacing: -0.8px; }
