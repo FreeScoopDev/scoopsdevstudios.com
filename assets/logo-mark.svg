@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 140" role="img" aria-label="Scoops Dev">
+  <polyline points="44,30 8,70 44,110" fill="none" stroke="#EDE8DD" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="156,30 192,70 156,110" fill="none" stroke="#EDE8DD" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="100" cy="70" r="36" fill="#D44B2E"/>
+</svg>
