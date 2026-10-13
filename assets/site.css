@@ -63,6 +63,9 @@ body.text-page { background-image: linear-gradient(to bottom, transparent 55%, v
 .doc h2 { font-size: 1.25em; margin: 36px 0 10px; }
 .doc p, .doc li { color: var(--ink-soft); }
 .doc ul { padding-left: 1.2em; }
+/* Longer pages (the J Day Offroad policy) have several paragraphs and lists per section. */
+.doc p + p, .doc p + ul, .doc ul + p { margin-top: 12px; }
+.doc li + li { margin-top: 6px; }
 
 @media (max-width: 480px) {
     .hero { padding: 72px 20px 56px; }
