@@ -1,18 +1,19 @@
-/* Scoops Dev site styles. Colors follow the Wockett palette (forest green, cream, red-orange).
+/* Scoops Dev site styles. Colors are the Wockett app icon's brand palette, copied exactly from
+   DesignSystem.swift (brandForest, brandRoad, brandContour, brandWaypoint); the rest are mixes of those.
    Change a color here and every page picks it up. */
 
 @font-face { font-family: "Space Grotesk"; font-weight: 500; font-display: swap; src: url("fonts/space-grotesk-latin-500-normal.woff2") format("woff2"); }
 @font-face { font-family: "Space Grotesk"; font-weight: 700; font-display: swap; src: url("fonts/space-grotesk-latin-700-normal.woff2") format("woff2"); }
 
 :root {
-    --ground: #2B473A;      /* brand forest green */
-    --card: #243C31;        /* a shade darker for panels */
-    --line: #3A5A4A;        /* dividers and outlines */
-    --ink: #EDE8DD;         /* cream: headings and body */
-    --ink-soft: #C9CDBF;    /* secondary text */
-    --muted: #B4BBAC;       /* small print */
-    --link: #F2A882;        /* light tint of the brand orange, readable on green */
-    --accent: #D44B2E;      /* brand red-orange: logo dot and small accents only */
+    --ground: #22372F;      /* brandForest: the icon's forest green */
+    --card: #2D4038;        /* forest lifted 5% toward cream: panels sit above the ground, as cards do in the app */
+    --line: #435241;        /* forest toward brandContour: dividers and outlines */
+    --ink: #F6EFDF;         /* brandRoad: the cream road of the W. 11.1:1 on ground */
+    --ink-soft: #D0CEBF;    /* secondary text. 8.0:1 on ground, 7.0:1 on card */
+    --muted: #B6B8AA;       /* small print. 6.3:1 on ground, 5.5:1 on card */
+    --link: #ECA07E;        /* brandWaypoint halfway to cream. 6.0:1 on ground, 5.2:1 on card */
+    --accent: #E1511C;      /* brandWaypoint: logo dot and small accents only (3.3:1, too low for text) */
     --display: "Space Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     --body: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
