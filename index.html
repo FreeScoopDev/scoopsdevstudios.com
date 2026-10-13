@@ -7,34 +7,13 @@
     <meta name="description" content="Scoops Dev LLC is an independent studio building iOS apps, including Wockett and PlowR.">
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-    <style>
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #000; color: #f5f5f7; line-height: 1.5; }
-        a { color: #2997ff; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        header { text-align: center; padding: 96px 20px 56px; }
-        header .logo { display: block; width: 120px; height: auto; margin: 0 auto 28px; }
-        header h1 { font-size: 3em; font-weight: 700; letter-spacing: -1px; }
-        header p { font-size: 1.25em; color: #86868b; margin-top: 12px; }
-        main { max-width: 760px; margin: 0 auto; padding: 0 20px 80px; }
-        section { margin-top: 56px; }
-        h2 { font-size: 1.4em; font-weight: 600; margin-bottom: 16px; }
-        .lead { color: #c7c7cc; font-size: 1.05em; }
-        .apps { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
-        .app { background: #1c1c1e; border-radius: 16px; padding: 28px 24px; }
-        .app h3 { font-size: 1.2em; font-weight: 600; margin-bottom: 8px; }
-        .app p { font-size: 0.95em; color: #a1a1a6; }
-        .app .links { margin-top: 16px; font-size: 0.9em; display: flex; gap: 16px; flex-wrap: wrap; }
-        .tag { display: inline-block; font-size: 0.75em; color: #86868b; border: 1px solid #3a3a3c; border-radius: 999px; padding: 2px 10px; margin-bottom: 12px; }
-        .contact p { color: #c7c7cc; }
-        footer { text-align: center; padding: 40px 20px; border-top: 1px solid #1c1c1e; color: #6e6e73; font-size: 0.85em; }
-        footer p + p { margin-top: 8px; }
-    </style>
+    <meta name="theme-color" content="#2B473A">
+    <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
 
-<header>
-    <img class="logo" src="assets/logo-mark.svg" alt="" width="120" height="84">
+<header class="hero">
+    <img class="logo" src="assets/logo-mark.svg" alt="" width="128" height="90">
     <h1>Scoops Dev</h1>
     <p>Small, thoughtful apps for iPhone, iPad and Mac.</p>
 </header>
@@ -59,7 +38,7 @@
                 </div>
             </div>
             <div class="app">
-                <span class="tag">In testing</span>
+                <span class="tag soon">In testing</span>
                 <h3>PlowR</h3>
                 <p>Routes, clients, scheduling and invoices for snow removal, lawn care and landscaping businesses. Built for small crews and owner-operators.</p>
                 <div class="links">
