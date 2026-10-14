@@ -1,0 +1,5 @@
+# GitHub Pages (scoopsdevstudios.com) serves this repository root.
+# Jekyll skips dot-folders unless told otherwise. .well-known holds
+# security.txt, the standard place for a security contact.
+include:
+  - .well-known
