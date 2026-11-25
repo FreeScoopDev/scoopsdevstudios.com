@@ -7,7 +7,7 @@
     <meta name="description" content="Scoops Dev LLC is an independent studio building iOS apps, including Wockett, PlowR, Via Belli and Frontline Rush.">
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-    <meta name="theme-color" content="#22372F">
+    <meta name="theme-color" content="#F8F6EF">
     <link rel="canonical" href="https://scoopsdevstudios.com/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Scoops Dev">
@@ -21,78 +21,125 @@
     <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="assets/site.css">
 </head>
-<body>
-
-<header class="hero">
-    <img class="logo" src="assets/logo-mark.svg" alt="" width="128" height="90">
-    <h1>Scoops Dev</h1>
-    <p>Small, thoughtful apps for iPhone, iPad and Mac.</p>
+<body class="studio-page">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+    <div class="shell header-inner">
+        <a class="wordmark" href="./"><img src="assets/logo-mark.svg" alt="" width="32" height="23">Scoops Dev</a>
+        <nav aria-label="Main navigation">
+            <a href="#apps">Apps</a>
+            <a href="#about">About</a>
+            <a href="#support">Support</a>
+        </nav>
+    </div>
 </header>
 
-<main>
-    <section>
-        <h2>Our apps</h2>
-        <div class="apps">
-            <div class="app">
-                <span class="tag">On the App Store</span>
-                <h3>Wockett</h3>
-                <p>Walking routes, step goals and walk tracking, with profiles for the pets who come along. Pick a distance and Wockett suggests a route from your front door.</p>
-                <div class="links">
-                    <a href="https://apps.apple.com/app/id6794364736">Download Wockett</a>
-                    <a href="https://wockett.app">Website</a>
-                    <a href="https://wockett.app/privacy-policy.html">Privacy</a>
-                </div>
-            </div>
-            <div class="app">
-                <span class="tag">On the App Store</span>
-                <h3>PlowR</h3>
-                <p>Routes, clients, scheduling and invoices for snow removal, lawn care and landscaping businesses. Built for small crews and owner-operators.</p>
-                <div class="links">
-                    <a href="https://apps.apple.com/app/id6796051098">Download PlowR</a>
-                    <a href="https://getplowr.app">Website</a>
-                    <a href="https://getplowr.app/privacy-policy.html">Privacy</a>
-                </div>
-            </div>
-            <div class="app">
-                <span class="tag">On the App Store</span>
-                <h3>Via Belli</h3>
-                <p>A tower defense game set in historical battles.</p>
-                <div class="links">
-                    <a href="https://apps.apple.com/app/id6825083594">Download Via Belli</a>
-                    <a href="viabelli/">About Via Belli</a>
-                    <a href="viabelli/support.html">Support</a>
-                    <a href="viabelli/privacy-policy.html">Privacy</a>
-                </div>
-            </div>
-            <div class="app">
-                <span class="tag">Coming soon</span>
-                <h3>Via Belli: Frontline Rush</h3>
-                <p>A one-thumb road shooter for iPhone. Steer your squad, pick the better gates and beat the boss at the end of the road. No ads, no accounts, plays offline.</p>
-                <div class="links">
-                    <a href="frontlinerush/">About Frontline Rush</a>
-                    <a href="frontlinerush/support.html">Support</a>
-                    <a href="privacy-policy.html#frontline-rush">Privacy</a>
-                </div>
-            </div>
+<main id="main" tabindex="-1" class="shell">
+    <section class="studio-hero" aria-labelledby="studio-title">
+        <div class="studio-intro">
+            <p class="eyebrow">Independent app studio · Vermont</p>
+            <h1 id="studio-title">Apps for the day.<br>Games for downtime.</h1>
+            <p>Plan a walk, run your crew, or get lost in a good game. We build for iPhone, iPad and Mac.</p>
+            <a class="button" href="#apps">Explore our apps <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="studio-art" aria-hidden="true">
+            <img src="assets/logo-mark.svg" alt="" width="200" height="140">
         </div>
     </section>
 
-    <section>
-        <h2>About</h2>
-        <p class="lead">Scoops Dev LLC is an independent software studio that designs, builds and publishes apps for Apple platforms. Wockett and PlowR keep your personal app data on your devices and in your own iCloud account. Via Belli and Frontline Rush save game progress on your device. No accounts to create and no tracking.</p>
+    <section id="apps" class="portfolio" aria-labelledby="apps-title">
+        <h2 id="apps-title">Our apps</h2>
+        <div class="portfolio-grid">
+            <article id="wockett" class="product theme-wockett">
+                <div class="product-art utility-art">
+                    <img class="product-icon" src="assets/apps/wockett-icon.webp" alt="" width="144" height="144">
+                    <img class="product-screen" src="assets/apps/wockett-route.webp" alt="A walking route and distance in Wockett" width="430" height="744" decoding="async">
+                </div>
+                <div class="product-copy">
+                    <p class="eyebrow">Walking &amp; activity</p>
+                    <h3>Wockett</h3>
+                    <p>Pick a distance and find a walk right from your front door. Track your steps, save favorite routes and keep profiles for the pets who join you.</p>
+                    <div class="actions">
+                        <a class="button" href="https://apps.apple.com/app/id6794364736">Download Wockett</a>
+                        <a href="https://wockett.app">Website</a>
+                        <a href="https://wockett.app/privacy-policy.html">Privacy</a>
+                    </div>
+                </div>
+            </article>
+            <article id="plowr" class="product theme-plowr">
+                <div class="product-art utility-art">
+                    <img class="product-icon" src="assets/apps/plowr-icon.webp" alt="" width="144" height="144">
+                    <img class="product-screen" src="assets/apps/plowr-route.webp" alt="A service route and stop markers in PlowR" width="430" height="539" decoding="async">
+                </div>
+                <div class="product-copy">
+                    <p class="eyebrow">Field service</p>
+                    <h3>PlowR</h3>
+                    <p>Plan routes, log completed work and send invoices from the field. Built for snow removal, lawn care and landscaping crews.</p>
+                    <div class="actions">
+                        <a class="button" href="https://apps.apple.com/app/id6796051098">Download PlowR</a>
+                        <a href="https://getplowr.app">Website</a>
+                        <a href="https://getplowr.app/privacy-policy.html">Privacy</a>
+                    </div>
+                </div>
+            </article>
+            <article id="via-belli" class="product theme-belli">
+                <div class="product-art game-art">
+                    <img src="assets/apps/via-belli-battle.webp" alt="Towers defending the roads above the Normandy coast" width="1120" height="840" loading="lazy" decoding="async">
+                </div>
+                <div class="product-copy">
+                    <p class="eyebrow">Historical tower defense</p>
+                    <h3>Via Belli <span>Battles of History</span></h3>
+                    <p>Build towers, command heroes and hold the line on maps inspired by real battles. Play on iPhone or iPad.</p>
+                    <div class="actions">
+                        <a class="button" href="https://apps.apple.com/app/id6825083594">Download Via Belli</a>
+                        <a href="viabelli/">Game details</a>
+                        <a href="viabelli/support.html">Support</a>
+                        <a href="viabelli/privacy-policy.html">Privacy</a>
+                    </div>
+                </div>
+            </article>
+            <article id="frontline-rush" class="product theme-rush">
+                <div class="product-art game-art">
+                    <img src="assets/apps/frontline-rush.webp" alt="A squad approaches green and red gates on the road to a tank" width="980" height="980" loading="lazy" decoding="async">
+                </div>
+                <div class="product-copy">
+                    <p class="eyebrow">Arcade road shooter · Coming soon</p>
+                    <h3>Frontline Rush</h3>
+                    <p>Steer your squad with one thumb, pick the better gates and take on the boss at the end of the road. Play offline on iPhone.</p>
+                    <div class="actions">
+                        <a class="button" href="frontlinerush/">Explore Frontline Rush</a>
+                        <a href="frontlinerush/support.html">Support</a>
+                        <a href="privacy-policy.html#frontline-rush">Privacy</a>
+                    </div>
+                </div>
+            </article>
+        </div>
     </section>
 
-    <section class="contact">
-        <h2>Contact</h2>
-        <p>Business inquiries: <a href="mailto:joe@scoopsdevstudios.com">joe@scoopsdevstudios.com</a></p>
-        <p>App support: <a href="https://getplowr.app/support.html">PlowR support</a> · <a href="https://wockett.app">Wockett</a> · <a href="viabelli/support.html">Via Belli support</a> · <a href="frontlinerush/support.html">Frontline Rush support</a></p>
-    </section>
+    <div class="studio-info">
+        <section id="about">
+            <h2>About the studio</h2>
+            <p>Scoops Dev is an independent software studio in Vermont. We make useful apps and games for Apple devices, with no accounts to set up and no tracking.</p>
+            <p>Wockett and PlowR keep your personal app data on your devices and in your own iCloud account. Our games save your progress on your device.</p>
+        </section>
+        <section id="support">
+            <h2>Need a hand?</h2>
+            <ul class="support-links">
+                <li><a href="https://wockett.app/help.html">Wockett support</a></li>
+                <li><a href="https://getplowr.app/support.html">PlowR support</a></li>
+                <li><a href="viabelli/support.html">Via Belli support</a></li>
+                <li><a href="frontlinerush/support.html">Frontline Rush support</a></li>
+            </ul>
+            <p>Business inquiries can go to <a href="mailto:joe@scoopsdevstudios.com">joe@scoopsdevstudios.com</a>.</p>
+        </section>
+    </div>
 </main>
 
-<footer>
-    <p><a href="privacy-policy.html">Privacy Policy</a></p>
-    <p>© 2026 Scoops Dev LLC · Vermont, USA</p>
+<footer class="site-footer">
+    <div class="shell">
+        <p>© 2026 Scoops Dev LLC · Vermont, USA</p>
+        <a href="privacy-policy.html">Privacy Policy</a>
+    </div>
 </footer>
-
 </body>
 </html>
